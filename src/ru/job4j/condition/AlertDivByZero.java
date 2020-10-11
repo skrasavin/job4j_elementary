@@ -1,7 +1,5 @@
 package ru.job4j.condition;
 
-import java.sql.SQLOutput;
-
 public class AlertDivByZero {
 
     public static void possibleDiv(int number) {
