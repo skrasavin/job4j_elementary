@@ -14,8 +14,4 @@ public class CheckPrimeNumber {
         }
         return prime;
     }
-
-    public static void main(String[] args) {
-        System.out.println(CheckPrimeNumber.check(1));
-    }
 }
