@@ -1,6 +1,6 @@
 package ru.job4j.array;
 
-public class ArrayLoop {
+public class FindLoop {
     public static void main(String[] args) {
         int[] array = new int[5];
 
