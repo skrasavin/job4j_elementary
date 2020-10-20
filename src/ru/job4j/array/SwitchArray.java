@@ -5,10 +5,9 @@ public class SwitchArray {
 //То есть значение ячеек source и dest нужно поменять местами.
     public static int[] swap(int[] array, int source, int dest) {
         int[] copyArray = array.clone();
-        for (int i = 0; i < array.length; i++) {
             array[source] = copyArray[dest];
             array[dest] = copyArray[source];
-        }
+
         return array;
     }
 
