@@ -6,8 +6,6 @@ public class MinDiapason {
         for (int i = start; i <= finish; i++) {
             if (min > array[i]) {
                 min = array[i];
-            } else {
-                min = min;
             }
         }
         return min;
