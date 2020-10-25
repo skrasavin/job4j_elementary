@@ -4,5 +4,5 @@ public class Surgeon extends Doctor {
     String[] namesOfAssistant;
     int numberOfAssistant;
 
-    public StageOfOperation lungs(Patient patient) { }
+    //public StageOfOperation lungs(Patient patient) { }
 }

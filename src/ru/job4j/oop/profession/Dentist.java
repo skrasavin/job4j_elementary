@@ -4,5 +4,5 @@ public class Dentist extends Doctor {
     int dentalAnesthesia;
     int[] dentalInstuments;
 
-    public boolean removalOfTooth(Patient patient) { }
+    //public boolean removalOfTooth(Patient patient) { }
 }

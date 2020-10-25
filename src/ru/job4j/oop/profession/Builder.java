@@ -4,5 +4,5 @@ public class Builder extends Engineer {
     String typeOfWork;
     String[] constructionMaterials;
 
-    public House build(Schema schema) { }
+    //public House build(Schema schema) { }
 }
