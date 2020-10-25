@@ -6,7 +6,7 @@ public class Max {
     }
 
     public static int max(int first, int second, int third) {
-        return max(max(first,second), third);
+        return max(max(first, second), third);
     }
 
     public static int max(int first, int second, int third, int fourth) {
@@ -16,9 +16,9 @@ public class Max {
     public static void main(String[] args) {
         int res = Max.max(6, 7);
         System.out.println(res);
-        res = Max.max(6, 7,8);
+        res = Max.max(6, 7, 8);
         System.out.println(res);
-        res = Max.max(6, 7,8, 9);
+        res = Max.max(6, 7, 8, 9);
         System.out.println(res);
     }
 }
