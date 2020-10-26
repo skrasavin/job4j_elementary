@@ -7,10 +7,7 @@ public class ReportUsage {
         //System.out.println(text);
         JSONReport jsonReport = new JSONReport();
         String text1 = jsonReport.generate("Report's name", "Report's body");
-        String text2 = jsonReport.generateWithLineSeparator("Report's name", "Report's body");
         System.out.println("GenerateWithoutLineSeparator");
         System.out.println(text1);
-        System.out.println("\nGenerateWithLineSeparator");
-        System.out.println(text2);
     }
 }
