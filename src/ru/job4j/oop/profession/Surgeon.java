@@ -1,8 +1,8 @@
 package ru.job4j.oop.profession;
 
 public class Surgeon extends Doctor {
-    String[] namesOfAssistant;
-    int numberOfAssistant;
+    private String[] namesOfAssistant;
+    private int numberOfAssistant;
 
     //public StageOfOperation lungs(Patient patient) { }
 }

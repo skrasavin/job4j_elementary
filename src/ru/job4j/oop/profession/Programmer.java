@@ -1,8 +1,8 @@
 package ru.job4j.oop.profession;
 
 public class Programmer extends Engineer {
-    String programmingLanguage;
-    String typeOfProject;
+    private String programmingLanguage;
+    private String typeOfProject;
 
     //public Project add(Program program) { }
 
