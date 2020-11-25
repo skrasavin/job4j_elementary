@@ -19,12 +19,4 @@ public class Merge {
         }
         return rsl;
     }
-
-    public static void main(String[] args) {
-        int[] rsl = merge(
-                new int[] {1, 3, 5},
-                new int[] {2, 4}
-        );
-        System.out.println(Arrays.toString(rsl));
-    }
 }
